@@ -12,7 +12,7 @@ namespace FirstLab
         static void Main(string[] args)
         {
             HW1.QueueTime(new int[] { 2, 3 }, 2);
-            HW1.QueueTime(new int[] { 1, 1, 1}, 1);
+            HW1.QueueTime(new int[] { 5, 3, 4}, 1);
             HW1.QueueTime(new int[] { 10, 3, 2 }, 2);
         }
     }
@@ -60,7 +60,7 @@ namespace FirstLab
                 }
             }
             Console.WriteLine(k);
-            return 0;
+            return k;
         }
 
     }
